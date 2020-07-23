@@ -47,7 +47,7 @@ class TriParticle extends Particle {
     rotation = random(100);
   }
   void draw() {
-    fill(0, 50);
+    fill(255, 0, 0, 50);
     noStroke();
     pushMatrix();
     translate(pos.x, pos.y);
