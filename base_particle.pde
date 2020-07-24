@@ -52,7 +52,7 @@ class TriParticle extends Particle {
     pushMatrix();
     translate(pos.x, pos.y);
     rotate(rotation+frameCount/100.0);
-    triangle(0, 0, 10, 0, 5, -5*sqrt(3));
+    triangle(0, 0, 40, 5, 5, -5*sqrt(3));
     popMatrix();
   }
 }
